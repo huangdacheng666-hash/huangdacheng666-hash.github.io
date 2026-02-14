@@ -20,18 +20,14 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Hexo
-        run: |
-          npm install -g hexo-cli
-
       - name: Install Dependencies
         run: |
           npm install
 
       - name: Build Hexo Site
         run: |
-          hexo version
-          hexo generate
+          npx hexo version
+          npx hexo generate
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
