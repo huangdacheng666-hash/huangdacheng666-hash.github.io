@@ -8,7 +8,7 @@ comments: false
 
 ## About Me
 
-My name is Huang Cheng (Allen). I have 10 years of experience in technical support and FAE team management, focusing on the intelligent hardware/IoT field, and proficient in full-process technical empowerment from customer requirements to product implementation.
+My name is Huang Cheng (Allen). I have 10 years of experience in technical support and FAE team management, focusing on the intelligent hardware/IoT field.
 
 ### Contact Information
 
@@ -23,4 +23,4 @@ FAE Manager, Technical Support, Solution Engineer, Technical Sales, TPM, Project
 
 ---
 
-**语言切换**: [中文版本](/work-experience/)
+**[中文版本](/about/)**

@@ -1,6 +1,6 @@
 # Sidebar Settings
 sidebar: true
-sidebar-about-description: "10年技术支持和FAE团队管理经验，专注智能硬件/IoT领域"
+sidebar-about-description: "10年技术支持和FAE团队管理经验"
 sidebar-avatar: img/avatar.jpg
 
 # SNS settings
@@ -15,14 +15,6 @@ widgets:
   - recent-posts
   - archive
   - category
-
-# Archive
-archive_type: 'monthly'
-show_count: true
-
-# Featured Tags
-featured-tags: true
-featured-condition-size: 1
 
 # Color Theme
 highlight_theme: night
@@ -45,12 +37,6 @@ tip:
 # Background effects
 bg_effects:
   enable: false
-  line:
-    enable: false
-  mouse_click:
-    enable: false
-  wave:
-    enable: false
 
 # Share
 share: false

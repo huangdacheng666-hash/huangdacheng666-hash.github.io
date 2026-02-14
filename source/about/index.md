@@ -23,4 +23,4 @@ FAE经理、技术支持、解决方案工程师、技术销售、TPM、项目�
 
 ---
 
-**语言切换**: [English Version](/en/work-experience/)
+**[English Version](/en/about/)**

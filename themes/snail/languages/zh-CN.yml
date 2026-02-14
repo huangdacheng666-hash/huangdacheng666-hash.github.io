@@ -4,43 +4,6 @@ menu:
   categories: 分类
   tags: 标签
   about: 关于
-  search: 搜索
-
-sidebar:
-  avatar: avatar
-  nav: 导航
-  widget:
-    social: 社交
-    recent_posts: 最新文章
-    featured_tags: 标签
-    archive: 归档
-    category: 分类
-
-post:
-  permalink: 链接
-  read_more: 阅读更多
-  prev: 上一篇
-  next: 下一篇
-  toc: 目录
-  copyright: 版权声明
-  copyright_content: 本文章采用 CC BY-NC-SA 4.0 许可协议，转载时请注明出处！
-
-index:
-  find_me: 联系我
-  follow_me: 关注我
 
 footer:
   powered: "由 Hexo & Snail 强力驱动"
-  theme: 主题
-  total_views: 总访问量
-  total_visitors: 总访客
-
-date_suffix:
-  just: 刚刚
-  minutes: 分钟前
-  hours: 小时前
-  days: 天前
-  months: 月前
-
-word_count:
-  words: 字
