@@ -20,14 +20,17 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install Hexo
+        run: |
+          npm install -g hexo-cli
+
       - name: Install Dependencies
         run: |
           npm install
-          npm install hexo-cli -g
 
       - name: Build Hexo Site
         run: |
-          hexo clean
+          hexo version
           hexo generate
 
       - name: Deploy to GitHub Pages
