@@ -29,21 +29,6 @@ jobs:
           npx hexo version
           npx hexo generate
 
-      - name: Fix Admin Files
-        run: |
-          mkdir -p public/admin
-          echo '<!DOCTYPE html>' > public/admin/index.html
-          echo '<html>' >> public/admin/index.html
-          echo '<head>' >> public/admin/index.html
-          echo '  <meta charset="utf-8" />' >> public/admin/index.html
-          echo '  <meta name="viewport" content="width=device-width, initial-scale=1.0" />' >> public/admin/index.html
-          echo '  <title>Content Manager - Allen Huang Resume</title>' >> public/admin/index.html
-          echo '</head>' >> public/admin/index.html
-          echo '<body>' >> public/admin/index.html
-          echo '  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>' >> public/admin/index.html
-          echo '</body>' >> public/admin/index.html
-          echo '</html>' >> public/admin/index.html
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
