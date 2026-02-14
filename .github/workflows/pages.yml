@@ -26,8 +26,6 @@ jobs:
 
       - name: Build Hexo Site
         run: |
-          # Remove source/admin if exists (causes theme wrapper issue)
-          rm -rf source/admin
           npx hexo version
           npx hexo generate
 
