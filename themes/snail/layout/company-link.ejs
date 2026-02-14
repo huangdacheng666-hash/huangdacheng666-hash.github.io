@@ -1,0 +1,63 @@
+---
+layout: company-link
+---
+
+<script>
+  // Company Logo Link Component
+  // Usage: {% company_link name="公司名称" url="公司官网" logo="logo-name" %}
+  
+  const companies = {
+    'qtech': {
+      name: '昆山丘钛智行致远科技有限公司',
+      url: 'https://www.qtechsmartvision.com/',
+      color: '#0066cc'
+    },
+    'dji-automotive': {
+      name: '深圳市卓驭科技有限公司（大疆车载）',
+      url: 'https://www.dji.com/automotive',
+      color: '#000000'
+    },
+    'sensetime': {
+      name: '深圳市商汤科技有限公司',
+      url: 'https://www.sensetime.com',
+      color: '#00a0e9'
+    },
+    'hikvision': {
+      name: '杭州海康威视数字技术股份有限公司',
+      url: 'https://www.hikvision.com',
+      color: '#003087'
+    },
+    'dji': {
+      name: '深圳市大疆创新科技有限公司',
+      url: 'https://www.dji.com',
+      color: '#000000'
+    },
+    'zyt': {
+      name: '深圳市卓驭科技有限公司',
+      url: 'https://www.zyt.com/',
+      color: '#000000'
+    }
+  };
+</script>
+
+<style>
+.company-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s;
+}
+.company-link:hover {
+  opacity: 0.8;
+}
+.company-logo {
+  height: 24px;
+  width: auto;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.company-text {
+  font-weight: 500;
+}
+</style>

@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "source/img"
+public_folder: "/img"
+
+collections:
+  - name: "work-experience"
+    label: "Work Experience"
+    folder: "source/_posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Language", name: "lang", widget: "select", options: ["en", "zh-CN"], default: "en"}
+      - {label: "Type", name: "type", widget: "hidden", default: "work-experience"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Comments", name: "comments", widget: "hidden", default: false}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  - name: "about"
+    label: "About Page"
+    folder: "source/about"
+    create: false
+    slug: "index"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Type", name: "type", widget: "hidden", default: "about"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Content", name: "body", widget: "markdown"}

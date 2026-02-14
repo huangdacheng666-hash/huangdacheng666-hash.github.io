@@ -1,0 +1,46 @@
+menu:
+  home: Home
+  archives: Archives
+  categories: Categories
+  tags: Tags
+  about: About
+  search: Search
+
+sidebar:
+  avatar: Avatar
+  nav: Navigation
+  widget:
+    social: Social
+    recent_posts: Recent Posts
+    featured_tags: Featured Tags
+    archive: Archive
+    category: Category
+
+post:
+  permalink: Permalink
+  read_more: Read More
+  prev: Previous
+  next: Next
+  toc: Table of Contents
+  copyright: Copyright
+  copyright_content: This article is licensed under CC BY-NC-SA 4.0. Please attribute when sharing!
+
+index:
+  find_me: Contact Me
+  follow_me: Follow Me
+
+footer:
+  powered: "Powered by Hexo & Snail"
+  theme: Theme
+  total_views: Total Views
+  total_visitors: Total Visitors
+
+date_suffix:
+  just: just now
+  minutes: minutes ago
+  hours: hours ago
+  days: days ago
+  months: months ago
+
+word_count:
+  words: words

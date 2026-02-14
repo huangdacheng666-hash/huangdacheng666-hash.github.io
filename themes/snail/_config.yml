@@ -1,0 +1,56 @@
+# Sidebar Settings
+sidebar: true
+sidebar-about-description: "10年技术支持和FAE团队管理经验，专注智能硬件/IoT领域"
+sidebar-avatar: img/avatar.jpg
+
+# SNS settings
+github_username: huangdacheng666-hash
+
+# Widgets
+widgets:
+  - search
+  - featured-tags
+  - short-about
+  - visitor
+  - recent-posts
+  - archive
+  - category
+
+# Archive
+archive_type: 'monthly'
+show_count: true
+
+# Featured Tags
+featured-tags: true
+featured-condition-size: 1
+
+# Color Theme
+highlight_theme: night
+color_theme: light
+mouse_control: false
+
+# Music
+music:
+  enable: false
+
+# Comment
+comment:
+  disqus:
+    enable: false
+
+# Tip
+tip:
+  enable: false
+
+# Background effects
+bg_effects:
+  enable: false
+  line:
+    enable: false
+  mouse_click:
+    enable: false
+  wave:
+    enable: false
+
+# Share
+share: false
