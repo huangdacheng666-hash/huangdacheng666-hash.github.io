@@ -6,7 +6,6 @@
 title: Allen Huang
 subtitle: 10年技术支持和FAE团队管理经验
 author: Allen Huang
-language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -64,7 +63,7 @@ markdown:
     breaks: true
     linkify: true
     typographer: true
-    quotes: ""''
+    quotes: "“”''"
 
 # Search
 search:
@@ -160,3 +159,8 @@ share: false
 
 # Custom CSS
 custom_css: css/custom.css
+
+# Chinese Blog (optional)
+chinese_blog:
+  enable: false
+  url:
