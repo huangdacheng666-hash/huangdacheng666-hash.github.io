@@ -80,9 +80,7 @@ deploy:
   branch: master
 
 # i18n
-i18n:
-  type: [zh-CN, en]
-  generator: [index, archive, sitemap]
+language: [zh-CN, en]
 
 # Sitemap
 sitemap:
